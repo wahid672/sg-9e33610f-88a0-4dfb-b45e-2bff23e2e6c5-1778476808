@@ -13,13 +13,13 @@ position: 2
 Build login, register, forgot password pages. UI-only untuk sekarang (backend integration setelah Supabase enabled). Form validation, loading states, error handling.
 
 ## Checklist
-- [ ] Create Login page dengan email/password fields
-- [ ] Create Register page dengan name, email, password, confirm password
+- [x] Create Login page dengan email/password fields
+- [x] Create Register page dengan name, email, password, confirm password
 - [ ] Create ForgotPassword page
-- [ ] Add form validation (client-side)
-- [ ] Add loading states dan error messages
+- [x] Add form validation (client-side)
+- [x] Add loading states dan error messages
 - [ ] Add "Register as Seller" dan "Become Affiliate" CTAs
-- [ ] Responsive mobile-friendly forms
+- [x] Responsive mobile-friendly forms
 
 ## Acceptance
 - Auth forms tampil clean dengan validation

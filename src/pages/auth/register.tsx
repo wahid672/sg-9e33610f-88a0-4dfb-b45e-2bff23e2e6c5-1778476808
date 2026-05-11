@@ -47,9 +47,7 @@ export default function RegisterPage() {
     }
 
     try {
-      await authService.signUp(formData.email, formData.password, {
-        full_name: formData.fullName,
-      });
+      await authService.signUp(formData.email, formData.password, formData.fullName);
       
       setSuccess(true);
       setTimeout(() => {
