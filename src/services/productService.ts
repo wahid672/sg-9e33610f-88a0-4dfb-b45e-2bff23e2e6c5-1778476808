@@ -1,4 +1,3 @@
-<![CDATA[
 import { supabase } from "@/integrations/supabase/client";
 import type { Product } from "@/types/database";
 
@@ -70,7 +69,7 @@ export const productService = {
     return data;
   },
 
-  async createProduct(productData: Partial<Product>) {
+  async createProduct(productData: any) {
     const { data, error } = await supabase
       .from("products")
       .insert(productData)
@@ -81,7 +80,7 @@ export const productService = {
     return data;
   },
 
-  async updateProduct(id: string, updates: Partial<Product>) {
+  async updateProduct(id: string, updates: any) {
     const { data, error } = await supabase
       .from("products")
       .update(updates)
@@ -115,4 +114,3 @@ export const productService = {
     return data;
   }
 };
-</file_data>

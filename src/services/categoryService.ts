@@ -1,4 +1,3 @@
-<![CDATA[
 import { supabase } from "@/integrations/supabase/client";
 import type { Category } from "@/types/database";
 
@@ -24,4 +23,3 @@ export const categoryService = {
     return data as Category;
   }
 };
-</file_contents>

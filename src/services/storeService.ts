@@ -1,4 +1,3 @@
-<![CDATA[
 import { supabase } from "@/integrations/supabase/client";
 import type { Store } from "@/types/database";
 
@@ -36,7 +35,7 @@ export const storeService = {
     return data as Store | null;
   },
 
-  async createStore(storeData: Partial<Store>) {
+  async createStore(storeData: any) {
     const { data, error } = await supabase
       .from("stores")
       .insert(storeData)
@@ -47,7 +46,7 @@ export const storeService = {
     return data as Store;
   },
 
-  async updateStore(id: string, updates: Partial<Store>) {
+  async updateStore(id: string, updates: any) {
     const { data, error } = await supabase
       .from("stores")
       .update(updates)
@@ -88,4 +87,3 @@ export const storeService = {
     return data;
   }
 };
-</file_contents>

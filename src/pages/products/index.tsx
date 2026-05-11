@@ -1,4 +1,3 @@
-<![CDATA[
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Navigation } from "@/components/Navigation";
@@ -182,4 +181,3 @@ export default function ProductsPage() {
     </>
   );
 }
-</file_contents>
