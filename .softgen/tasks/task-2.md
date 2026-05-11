@@ -1,6 +1,6 @@
 ---
 title: Authentication Pages
-status: todo
+status: done
 priority: high
 type: feature
 tags: [auth, frontend]
