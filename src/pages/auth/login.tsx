@@ -23,7 +23,12 @@ export default function LoginPage() {
     setLoading(true);
 
     try {
-      await authService.signIn(email, password);
+      const { error: signInError } = await authService.signIn(email, password);
+      
+      if (signInError) {
+        throw new Error(signInError.message);
+      }
+      
       router.push("/dashboard");
     } catch (err: any) {
       setError(err.message || "Login failed. Please check your credentials.");
