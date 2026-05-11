@@ -1,9 +1,9 @@
 ---
 title: User Dashboard Multi-Role
-status: todo
+status: done
 priority: medium
 type: feature
-tags: [dashboard, seller, affiliate]
+tags: [dashboard, frontend]
 created_by: agent
 created_at: 2026-05-11T04:54:49Z
 position: 4
