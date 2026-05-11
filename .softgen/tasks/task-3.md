@@ -1,9 +1,9 @@
 ---
 title: Product & Store Pages
-status: todo
+status: done
 priority: high
 type: feature
-tags: [products, storefront]
+tags: [products, stores, frontend]
 created_by: agent
 created_at: 2026-05-11T04:54:49Z
 position: 3
